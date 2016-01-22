@@ -54,7 +54,10 @@
                     <div class="navbar-header pull-left">
                         <a class="navbar-brand page-scroll" href="#page-top">
                             <!-- replace with your brand logo/text -->
-                            <span class="brand-logo"><img src="assets/images/logo.svg" onerror="this.src='assets/images/logo.png'; this.onerror=null;" alt="Hallooou - HTML5 Template" title="Hallooou - HTML5 Template" class="img-responsive"></span>
+                            <span class="brand-logo"><img src="assets/images/logo.png" style="
+    padding-top: 0px;
+    margin-top: -23px;
+" class="img-responsive"></span>
                         </a>
                     </div>
                     <div class="main-nav pull-right">
@@ -94,9 +97,9 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div class="fill" style="background-image:url('assets/images/cover-one.jpg');"></div>
+                        <div class="fill" style="background-image:url('assets/images/bg.jpg');"></div>
                         <div class="carousel-caption">
-                            <h1 class="wow animated slideInDown">Taking Techela’16 to <span class="highlight">new heights</span></h1>
+                            <h1 class="wow animated slideInDown">May the <span class="highlight">source</span> be with you.</h1>
                             <p class="intro-text wow animated slideInUp">After establishing the reputation of being one of the largest tech fests in the city</p>
                             <a href="#about" class="btn btn-default btn-lg">Get Rollin'</a>
                         </div>
@@ -146,7 +149,7 @@
                             </div> -->
                              <div class="recent-project-carousel owl-carousel owl-theme popup-gallery">
                         <div class="item recent-project wow fadeIn" data-wow-offset="10">
-                            <img src="assets/images/gallery/project-one.jpg" alt="">
+                            <img src="assets/images/gallery/pic4.jpg" alt="">
 <!--
                             <div class="project-info">
                                 <h3>Lakeview Inc.</h3>
@@ -161,7 +164,7 @@
                         </div><!-- /.item -->
 
                         <div class="item recent-project wow fadeIn" data-wow-offset="10">
-                            <img src="assets/images/gallery/project-two.jpg" alt="">
+                            <img src="assets/images/gallery/pic3.jpg" alt="">
 <!--
                             <div class="project-info">
                                 <h3>Adam Productions</h3>
@@ -176,7 +179,7 @@
                         </div><!-- /.item -->
 
                         <div class="item recent-project wow fadeIn" data-wow-offset="10">
-                            <img src="assets/images/gallery/project-three.jpg" alt="">
+                            <img src="assets/images/gallery/pic2.jpg" alt="">
 <!--
                             <div class="project-info">
                                 <h3>Doe Associates</h3>
@@ -191,7 +194,7 @@
                         </div><!-- /.item -->
 
                         <div class="item recent-project wow fadeIn" data-wow-offset="10">
-                            <img src="assets/images/gallery/project-four.jpg" alt="">
+                            <img src="assets/images/gallery/pic1.jpg" alt="">
                             <!-- <div class="project-info">
                                 <h3>Omega Corporation</h3>
                                 <ul class="project-meta">
@@ -244,7 +247,31 @@
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                 <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
                                             </div>
-                                            <div class="modal-body">Add some text here</div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    This event will test your logic and the sharpness of your brain. No technical skills required, but how quickly can you think on your feet?</br>
+                                                </p>
+                                                <p>
+                                                    -The event has three rounds:
+                                                </p>
+                                                <p>
+                                                    ROUND 1 – Riddlicious 
+                                                    Each individual will be given a riddle which they will have to solve, and the first 75% of the participants will be considered for round two.
+                                                    Time: 30 minutes
+                                                </p>
+                                                <p>
+                                                    ROUND 2 – Mathemagic
+                                                    This will be a knockout round. This level will test not only your MATHS but also your IMPULSE. An Android game would be played between two participants and the winner (chosen by the game) will go through the next round. The game will consist of simple arithmetic questions.
+                                                </p>
+                                                <p>
+                                                    ROUND 3 – Mystery Round. Will be revealed on spot<br>
+
+                                                    Entry Fee: Rs. 50<br>
+
+                                                    Prize: Rs 1000
+                                                </p>
+
+                                            </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                             </div>
@@ -253,23 +280,91 @@
                                 </div><!-- /.modal --> 
 
                                 <div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="10">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="10" data-toggle="modal" data-target="#IT-Quiz">
                                         <i class="fa fa-question fa-3x"></i>
                                         <h4>IT Quiz</h4>
                                         <p>The classic quiz with an IT twist. Electrifying rounds of quiz action so get your thinking CAPS ON.</p>
                                     </div><!-- /.row -->
                                 </div><!-- /.col-md-4 -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="IT-Quiz" tabindex="-1" role="dialog" aria-labelledby="PuzzleMania" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
+                                            </div>
+                                            <div class="modal-body" style="text-align: left;">
+                                               <p> A technology based, multiple round quiz that is designed to test your IT Quotient.<br>
+                                                -2 members per Team.<br>
+                                                -There will be 4+1(Preliminary) rounds.<br>
+                                                -For main rounds only 6 teams would be selected.<br>
+                                                -Preliminary Round: 20 Questions (Marking scheme: +5/-2)<br>
+                                                -If in preliminary round there is a tie between 2 teams, then teams getting maximum star (*) <br>marked questions correct will progress to the main rounds.  <br>
+                                                -Preliminary round scores and rankings are discarded before main rounds.<br>
+                                                -Main Rounds:    <br>
+
+                                                i)  Brush Up! :  2 questions per team. (Marking scheme: +5/0)<br>
+                                                ii) Server link:  1 question per team (+30 for correct answer/+15 for passed question/No <br>negative marking).
+                                                iii)    God Gift: 1 question per team (+30 for correct answer without hint/+20 for answer after <br>1st hint/+10 for answer after 2nd hint).<br>
+                                                iv) Rollercoaster: Buzzer Round. Total 10 questions. (Marking Scheme: +5/-5)<br>
+                                                  
+                                                -Tie breaker: Rapid fire questions.<br>
+
+                                                Entry Fee: Rs. 150 for a team of 2, Rs 100 for individual (pairs will be made on spot)<br>
+
+                                                Prize: 1500<br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal --> 
+
 
                                 <div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="10">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="10" data-toggle="modal" data-target="#CodeRush">
                                         <i class="fa fa-code fa-3x"></i>
                                         <h4>CodeRush</h4>
                                         <p>This one will test all your coding skills to the limit. Can you debug? Can you blind code? Can you CodeRush?</p>
                                     </div><!-- /.row -->
                                 </div><!-- /.col-md-4 -->
+                                 <div class="modal fade" id="CodeRush" tabindex="-1" role="dialog" aria-labelledby="PuzzleMania" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
+                                            </div>
+                                            <div class="modal-body" style="text-align: left;">
+                                               <p>
+                                                This event is designed to test your all round coding skills. Built over three rounds, this will stretch you to your limits.<br>
+                                                -Allowed Languages: C, C++, Java<br>
+                                                Round 1: Blind Code<br>
+                                                In this round, participants will be provided with a problem to code. The constraint in this round is that the screen will be turned off. <br>Participants will be allowed to turn on the screen for only once.<br>
+                                                Time Limit: 5 - 10 minutes<br>
+                                                Round 2: Debugging<br>
+                                                In this round, participants will be given 4 problems to debug in a stipulated time. The bugs may be logical, syntactical etc. <br>
+                                                Round 3: Code Swap<br>
+                                                In this round, if there are X participants, X/2 teams are made. Each team is provided with a set of 2 problems to solve (1 for each member). <br>After half time, the problems will be swapped between the two members of the same team and they solve the problem. Team members are not allowed to discuss among themselves in this round.<br>
+                                                Time Limit: 20 - 30 minutes<br>
+                                                -Automatic code checking software will be used. All results shall be considered final.<br>
+                                                Entry Fee: Rs 150 for a team of 2, Rs 100 for an individual (pairs to be made on spot)<br>
+                                                Prize: Rs 2000<br>
+
+                                               </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal --> 
 
                                 <div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#IT-Quiz">
                                         <i class="fa fa-rss fa-3x"></i>
                                         <h4>Blogging Event</h4>
                                         <p>Get up and close with a pro as India's no. 1 blogger Harsh Agarwal  talks about everything blog. Wouldn't want to miss this!</p>
@@ -277,23 +372,77 @@
                                 </div><!-- /.col-md-4 -->
 
                                 <div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#Decrypt">
                                         <i class="fa fa-money fa-3x"></i>
-                                        <h4>Online Treasure Hunt</h4>
+                                        <h4>Decrypt</h4>
                                         <p>This event is an innovative combo of treasure hunt madness and Internet IQ that will enthrall one and all.</p>
 									</div><!-- /.row -->
                                 </div><!-- /.col-md-4 -->
+                                 <div class="modal fade" id="Decrypt" tabindex="-1" role="dialog" aria-labelledby="PuzzleMania" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
+                                            </div>
+                                            <div class="modal-body" style="text-align: left;">
+                                               <p>
+                                                An online treasure hunt in which participants make their way through a series of online levels of increasing difficulty.<br>
+                                                -All participants will be given a username and password before the event.<br>
+                                                -To reach the treasure, you must answer 12 questions.<br>
+                                                -The participant who reaches the treasure first takes the prize. <br>
+                                                -On some levels, the participants will encounter some clues with the question which shall all together point to answer.<br>
+                                                -Clues may be in the form of source code or anything that’s on the screen.<br>
+                                                -Don’t ignore any part of the clue. If it wasn't important, it wouldn’t be there.<br>
+                                                -Beware of the spelling you enter, there is no auto correction option. All answers should be in lower case.<br>
+                                                -This is a 24 hr event.<br>
+                                                Timings: 00:00 (19-2-2016) to 00:00 (20-2-2016)<br>
+                                                Entry Fee: Rs. 100<br>
+                                                Prize: Rs. 1500<br>
+                                               </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
 
                                 <div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#CodeWars">
                                         <i class="fa fa-terminal fa-3x"></i>
-                                        <h4>Codechef</h4>
+                                        <h4>CodeWars</h4>
                                         <p>A test of pure programming powers hosted on the CodeChef platform. It's open for all of India so be ready for an epic battle.</p>
                                     </div><!-- /.row -->
                                 </div><!-- /.col-md-4 -->
+                                <div class="modal fade" id="CodeWars" tabindex="-1" role="dialog" aria-labelledby="PuzzleMania" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
+                                            </div>
+                                            <div class="modal-body" style="text-align: left;">
+                                               <p>
+                                                This is the traditional coding competition which will be open to participants from all over the country. It will be hosted on the Codechef platform. <br>
+                                                -Participants must have a Codechef username.<br>
+                                                -Allowed languages: C, C++, Java<br>
+                                                Date: 13-2-2016<br>
+                                                Timings: 2pm to 4pm<br>
+                                                NO ENTRY FEE<br>
+                                                Prize: Rs. 5000<br>
+
+                                               </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
 								
 								<div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#Decrypt">
                                         <i class="fa fa-google-plus fa-3x"></i>
                                         <h4>GDG Workshop</h4>
                                         <p>Do you want to know what it takes to be the best in the Tech world? No better people to learn than the Google Developers.</p>
@@ -301,15 +450,33 @@
                                 </div><!-- /.col-md-4 -->
 								
 								<div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#GameZone">
                                         <i class="fa fa-gamepad fa-3x"></i>
-                                        <h4>Gaming Stall</h4>
+                                        <h4>GameZone</h4>
                                     	<p>Think you're the best at Phone gaming? So come on take the challenge. Beat our champion and its double or nothing.</p>    
 									</div><!-- /.row -->
                                 </div><!-- /.col-md-4 -->
+                                <div class="modal fade" id="GameZone" tabindex="-1" role="dialog" aria-labelledby="PuzzleMania" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">PuzzleMania</h4>
+                                            </div>
+                                            <div class="modal-body" style="text-align: left;">
+                                               <p>
+                                                Gamezone is about androis gaming. Come to sit and we will tell you all about it.   
+                                               </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
 								
 								<div class="col-md-4">
-                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20">
+                                    <div class="row services-item text-center wow flipInX" data-wow-offset="20" data-toggle="modal" data-target="#Decrypt">
                                         <i class="fa fa-trophy fa-3x"></i>
                                         <h4>LAN gaming</h4>
                                         <p>Get your controllers out coz we've got all your favourite games! We have FIFA, Blur, COD, DOTA and CS too.</p>
@@ -437,8 +604,8 @@
                                                 </ul>
                                             </figcaption>
                                         </figure>
-                                        <h4>Karan Sharma</h4>
-                                        <p>Tech Architect</p>
+                                        <h4>Pragati Garg</h4>
+                                        <p>Chief Head</p>
                                     </div><!-- /.team-member -->
                                 </div><!-- /.col-md-4 -->
 
@@ -455,8 +622,10 @@
                                                 </ul>
                                             </figcaption>
                                         </figure>
-                                        <h4>Pragati Garg</h4>
-                                        <p>Chief Head</p>
+                                        <h4>Karan Sharma</h4>
+                                        <p>Tech Architect</p>
+
+                                        
                                     </div><!-- /.team-member -->
                                 </div><!-- /.col-md-4 -->
 
@@ -493,83 +662,25 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h2>Our Sponsors</h2>
-                            <h3 class="caption white">Decent listing with your clients. Fully customizable and ready to use in any subpages as you want. Responsive for any numbers of clients in this section.</h3>
-                        </div><!-- /.col-md-12-->
+                                                    </div><!-- /.col-md-12-->
                     </div><!-- /.row -->
 
                     <div class="row client-slider">
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/sony-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/nike-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/paramount-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/microsoft-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/citibank-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/fedex-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/sony-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/nike-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
                         
-                        <div class="item col-xs-4 col-md-2 i">
+
+                        <div class="item col-xs-6 col-md-6 i">
                             <a href="#" title="#">
-                                <img src="assets/images/paramount-logo.png" class="img-responsive">
+                                <img src="assets/images/loudshout.jpg" class="img-responsive">
                             </a>
                         </div><!-- /.col-xs-4 -->
 
-                        <div class="item col-xs-4 col-md-2 i">
+                        <div class="item col-xs-6 col-md-6 i">
                             <a href="#" title="#">
-                                <img src="assets/images/microsoft-logo.png" class="img-responsive">
+                                <img src="assets/images/gandhi.png" class="img-responsive">
                             </a>
                         </div><!-- /.col-xs-4 -->
 
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/citibank-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-                        
-                        <div class="item col-xs-4 col-md-2 i">
-                            <a href="#" title="#">
-                                <img src="assets/images/fedex-logo.png" class="img-responsive">
-                            </a>
-                        </div><!-- /.col-xs-4 -->
-
+                       
                     </div><!-- /.row -->
 
                 </div><!-- /.container -->
@@ -592,29 +703,11 @@
                                     <div class="client-testimonials owl-carousel owl-theme">
 
                                         <div class="item">
-                                            <p class="speech">Hallooou is the best HTML5 template we have EVER purchased. It's the perfect solution for our business. The unlimited customization helps us get things done quickly and efficiently.</p>
+                                            <p class="speech">CSIT TechFest is reborn as Techela 2016 , a "mela" of technical activities with lots of challenges, fun and lots of prizes. The students of CS/IT have geared up to make it unique and although more visible with its lot more interesting events which will stimulate the budding IT logic builders to fix complicated situations with efficient IT techniques.</p>
                                             <div class="client-info">
                                                 <img src="assets/images/gina_stone-client_pic.jpg" />
-                                                <h4>Dr. T. P. Singh</h4>
-                                                <span>Director</span>
-                                            </div>
-                                        </div><!-- /.item -->
-
-                                        <div class="item">
-                                            <p class="speech">This is the real deal! Very easy to use. Thanks to Hallooou HTML5 template, we've just launched our new website! I couldn't have asked for more than this. Definitely worth the investment.</p>
-                                            <div class="client-info">
-                                                <img src="assets/images/john_doe-client_pic.jpg" />
-                                                <h4>John Doe</h4>
-                                                <span>Doe Associates</span>
-                                            </div>
-                                        </div><!-- /.item -->
-
-                                        <div class="item">
-                                            <p class="speech">We're loving it. The best on the net! I strongly recommend Hallooou HTML5 template to everyone interested in running a successful business! Hallooou HTML5 template has really helped our business.</p>
-                                            <div class="client-info">
-                                                <img src="assets/images/dana_hill-client_pic.jpg" />
-                                                <h4>Dana Hill</h4>
-                                                <span>Lakeview Inc.</span>
+                                                <h4>Proff. Shraddha Phansalkar</h4>
+                                                <span>HOD CS/IT department</span>
                                             </div>
                                         </div><!-- /.item -->
 
@@ -639,7 +732,7 @@
                     <div class="row text-center">
                         <div class="col-md-12">
                             <h2 class="white">Our Achievements</h2>
-                            <h3 class="caption">Ultricestum urna litora sit sed praesent condimentum eu a et scelerisque</h3>
+                            <!-- <h3 class="caption">Ultricestum urna litora sit sed praesent condimentum eu a et scelerisque</h3> -->
                         </div><!-- /.col-md-12 -->
 
                         <div class="col-sm-3 counter-wrap wow fadeInUp" data-wow-offset="10">
@@ -673,7 +766,7 @@
                     <div class="row text-center">
                         <div class="col-md-12">
                             <h2>Contact</h2>
-                            <h3 class="caption gray">Feel free to get in touch with us if you have a new project or simply something awesome</h3>
+                            <!-- <h3 class="caption gray">Feel free to get in touch with us if you have a new project or simply something awesome</h3> -->
                         </div><!-- /.col-md-12 -->
 
                     </div><!-- /.row -->
@@ -739,7 +832,7 @@ Tal: Mulshi, Pune 412 115</br>
                             <a href="#" title="Hallooou - HTML5 Template">
                                 <h2>
                                     <!-- replace with your brand logo/text -->
-                                    <img src="assets/images/logo.svg" onerror="this.src='assets/images/logo.png'; this.onerror=null;" alt="Hallooou - HTML5 Template" title="Hallooou - HTML5 Template" class="img-responsive">
+                                    <img src="assets/images/logo.png" class="img-responsive">
                                 </h2>
                             </a>
                             <p class="white">May the source be with  you.</p>
@@ -750,7 +843,7 @@ Tal: Mulshi, Pune 412 115</br>
                         <div class="col-md-12 social segment">
                             <h4>Stay Connected</h4>
                             <a href="http://www.facebook.com/techela.16"><i class="fa fa-facebook fa-3x"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+                            <a href=""><i class="fa fa-twitter fa-3x"></i></a>
                             <a href="https://instagram.com/techela/"><i class="fa fa-instagram fa-3x"></i></a>
                         </div><!-- /.col-md-12 -->
                     </div><!-- /.row -->
@@ -761,7 +854,7 @@ Tal: Mulshi, Pune 412 115</br>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                &copy; 2015. Techela '16. All rights reserved.
+                                &copy; 2016. Techela '16. All rights reserved.
                             </div><!-- /.col-md-12 -->
 
                         </div><!-- /.row -->
